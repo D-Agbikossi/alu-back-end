@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 
+
+""" Library to gather data from API """
+
 import requests
 import sys
 
-''' Function to gather data from API'''
+""" Function to gather data from API """
 
 def get_employee_todo_progress(employee_id):
     # Fetch employee data
