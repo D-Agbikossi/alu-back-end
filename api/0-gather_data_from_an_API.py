@@ -3,6 +3,8 @@
 import requests
 import sys
 
+''' Function to gather data from API'''
+
 def get_employee_todo_progress(employee_id):
     # Fetch employee data
     user_url = f"https://jsonplaceholder.typicode.com/users/{employee_id}"
